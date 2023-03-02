@@ -6,7 +6,7 @@ const HookCounter = () => {
     let[count,setCount]=useState(0)
 
     let handleIncrement =()=>{
-        setCount(count+2)
+        setCount(count+1)
     }
 
     let handleDecrement =()=>{
